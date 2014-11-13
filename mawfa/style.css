@@ -1,0 +1,111 @@
+body {
+ background: #000000;
+ color: #FFFFFF;
+ font-family: Verdana, Helvetica, sans-serif;
+}
+
+a:link {
+ color: #00FF00;
+ text-decoration: underline;
+}
+
+a:visited {
+ color:	#00FF00;
+ text-decoration: underline;
+}
+
+a:hover {
+ color: #00FF00;
+ text-decoration: none;
+}
+
+a:active {
+ color: #00FF00;
+ text-decoration: none;
+}
+
+#bge1 {
+ clear: both;
+ width: 100%;
+ height: 100%;
+ background: transparent url(/mawfa/img/bge1.png);
+ background-repeat: no-repeat;
+ background-position: right bottom;
+}
+
+#wrapper {
+ background: #00560B;
+ border: 5px solid #2B7233;
+ -moz-border-radius: 50px;
+ border-radius: 50px;
+ width: 75%;
+ margin-top: 2.5%;
+ margin-left: 12.5%;
+ padding: 20px;
+}
+
+#header {
+ font-size: xx-large;
+ text-align: left;
+ margin-top: 10px;
+ float: left;
+ width: 50%;
+}
+
+#user {
+ font-size: medium;
+ text-align: right;
+ margin-top: 10px;
+ float: right;
+ width: 50%;
+}
+
+#header div.subtitle {
+ font-size: medium;
+}
+
+#nav {
+ clear: both;
+ font-size: medium;
+}
+
+table.tabs {
+ background: #00B616;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ border-collapse: collapse;
+ width: 100%;
+}
+
+#nav a:link {
+ color: #000000;
+ text-decoration: none;
+}
+
+#nav a:visited {
+ color: #000000;
+ text-decoration: none;
+}
+
+#nav a:hover {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+#nav a:active {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+#content {
+ margin-right: 1%;
+ font-size: medium;
+}
+
+#footer {
+ clear: both;
+ text-align: center;
+ font-size: x-small;
+ margin-bottom: 10px;
+}

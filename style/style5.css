@@ -1,0 +1,254 @@
+body {
+ background: url(/img/style5bg.png);
+ font-family: Arial, sans-serif;
+ color:	#000000;
+}
+
+a:link {
+ color: #000000;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+a:visited {
+ color:	#000000;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+a:hover {
+ color: #0000FF;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+a:active {
+ color: #0000FF;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+table {
+ border-collapse: collapse;
+ background-color: #FFFFFF;
+ width: 85%;
+}
+
+th {
+ background-color: #000000;
+ color: #FFFFFF;
+ text-align: center;
+ padding: 3px;
+}
+
+td {
+ padding: 5px;
+}
+
+.badkb {
+ font-weight: bold;
+ color: #FFFFFF;
+}
+
+.goodkb {
+ background-color: #8D003B;
+}
+
+.thin {
+ width: 20%;
+}
+
+.fat {
+ width: 80%;
+}
+
+.map {
+ background-color: #FFFFFF;
+ color: #000000;
+ text-align: center;
+ border-collapse: collapse;
+ border: 1px solid #000000;
+ width: 300px;
+}
+
+.move {
+ width: 25%;
+ background-color: #FFFFFF;
+}
+
+.net {
+ width: 100%;
+ font-weight: bold;
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ border-bottom: 1px solid #000000;
+}
+
+.dead {
+ vertical-align: middle;
+ background-color: #000000;
+ border: 1px dotted #f00;
+ width: 33%;
+}
+
+table, th, td {
+ border: 1px solid #000000;
+ vertical-align: top;
+}
+
+input {
+ font-family: Arial, sans-serif;
+ color:	#000000;
+ background-color: #FFFFFF;
+ border: 1px;
+ font-size: small;
+ border-style: solid;
+ border-color: #000000;
+}
+
+textarea {
+ font-family: Arial, sans-serif;
+ color:	#000000;
+ background-color: #FFFFFF;
+ border: 1px;
+ font-size: small;
+ border-style: solid;
+ border-color: #000000;
+}
+
+select {
+ font-family: Arial, sans-serif;
+ color:	#000000;
+ background-color: #FFFFFF;
+ border: 1px;
+ font-size: small;
+ border-style: solid;
+ border-color: #000000;
+}
+
+#wrapper {
+ border: 10px solid #000000;
+ background: #ff69b4;
+ -moz-border-radius: 50px;
+ border-radius: 50px;
+ margin-top: 2.5%;
+ margin-left: 12.5%;
+ margin-right: 12.5%;
+ margin-bottom: 2.5%;
+ width: 75%;
+ font-size: small;
+}
+
+#header {
+ font-size: xx-large;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 10px;
+}
+
+#header div.subtitle {
+ font-size: medium;
+}
+
+#nav {
+ float: left;
+ width: 15%;
+ height: 75%;
+ margin-left: 1%;
+}
+
+#content {
+ float: right;
+ margin-right: 1%;
+ width: 83%;
+}
+
+#content a:link {
+ color: #0000FF;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+#content a:visited {
+ color:	#0000FF;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+#content a:hover {
+ color: #000000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+#content a:active {
+ color: #000000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+#content div.leftcol {
+ float: left;
+ width: 50%;
+}
+
+#content div.rightcol {
+ float: right;
+ width: 50%;
+}
+
+span.highlight {
+ font-weight: bold;
+}
+
+span.mapsquare {
+ background-color: #FFFFFF;
+}
+
+span.mapsquare2 {
+ opacity: 0.5;
+ background-color: #FFFFFF;
+}
+
+span.button {
+ background-color: #FFFFFF;
+ border-style: solid;
+ border-width: 1px;
+ text-decoration: none;
+ padding: 5px;
+ border-color: #000000;
+}
+
+div.center {
+ text-align: center;
+}
+
+div.error {
+ color: #f00;
+}
+
+div.notification {
+ background-color: #FFFFFF;
+ color: #000000;
+ width: 80%;
+ border: 2px solid;
+ border-color: #f00;
+ padding: 5px;
+}
+
+div.notification a:link {
+ color: #FFFFFF;
+}
+
+img {
+ border: 0px;
+ vertical-align: top;
+}
+
+#footer {
+ clear: both;
+ text-align: center;
+ font-size: small;
+ margin-bottom: 10px;
+}

@@ -1,0 +1,283 @@
+body {
+ background: url(/img/style8pattern.jpg);
+ background-repeat: repeat;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ color:	#000000;
+}
+
+a:link {
+ color: #333333;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+a:visited {
+ color:	#333333;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+a:hover {
+ color: #FF0000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+a:active {
+ color: #FF0000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+table {
+ border-collapse: collapse;
+ width: 85%;
+}
+
+th {
+ background-color: #000000;
+ color: #FFFFFF;
+ text-align: center;
+ padding: 3px;
+}
+
+td {
+ padding: 5px;
+}
+
+.badkb {
+ border: 1px solid #000000;
+}
+
+.goodkb {
+ background-color: #F3F3F3;
+ border-right: 1px dotted #000000;
+}
+
+.thin {
+ width: 20%;
+}
+
+.fat {
+ width: 80%;
+}
+
+.map {
+ background-color: #000000;
+ color: #FFFFFF;
+ text-align: center;
+ border-collapse: collapse;
+ border: 1px solid #000000;
+ width: 300px;
+}
+
+.move {
+ width: 25%;
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ border-bottom: 0px;
+}
+
+.net {
+ width: 100%;
+ font-weight: bold;
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ border-bottom: 1px solid #000000;
+}
+
+.dead {
+ vertical-align: middle;
+ background-color: #FFFFFF;
+ border: 1px dotted #f00;
+ width: 33%;
+}
+
+table, th, td {
+ border: 1px solid #000000;
+ vertical-align: top;
+ font-size: small;
+}
+
+input {
+ font-family: Arial, sans-serif;
+ font-size: small;
+ color:	#000000;
+ background-color: #F3F3F3;
+ border: 1px;
+ border-style: solid;
+ border-color: #000000;
+}
+
+textarea {
+ font-family: Arial, sans-serif;
+ font-size: small;
+ color:	#000000;
+ background-color: #F3F3F3;
+ border: 1px;
+ border-style: solid;
+ border-color: #000000;
+}
+
+select {
+ font-family: Arial, sans-serif;
+ font-size: small;
+ color:	#000000;
+ background-color: #F3F3F3;
+ border: 1px;
+ border-style: solid;
+ border-color: #000000;
+}
+
+#wrapper {
+ background: url(/img/style8pattern3.png);
+ background-position: 0px 26px;
+ background-repeat: repeat-x;
+ height: 75%;
+ width: 75%;
+ margin-top: 2.5%;
+ margin-left: 12.5%;
+ margin-bottom: 2.5%;
+ margin-right: 12.5%;
+ border: 0px solid #000000;
+}
+
+#header {
+ height: 25%;
+ background: url(/img/style8pattern2.png);
+ background-repeat: repeat-x;
+ background-position: left top;
+ font-size: xx-large;
+ text-align: center;
+ border-top: 1px hidden #000000;
+ padding-top: 26px;
+}
+
+#header div.subtitle {
+ font-size: small;
+}
+
+#nav {
+ float: left;
+ font-size: small;
+ margin-left: 1%;
+ width: 15%;
+ height: 75%;
+}
+
+#content {
+ float: right;
+ margin-right: 1%;
+ font-size: small;
+ width: 83%;
+}
+
+#content a:link {
+ color: #0000FF;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+#content a:visited {
+ color:	#0000FF;
+ text-decoration: none;
+ border-bottom:1px dotted;
+}
+
+#content a:hover {
+ color: #FF0000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+#content a:active {
+ color: #FF0000;
+ text-decoration:underline;
+ border-bottom:0px;
+}
+
+#content div.leftcol {
+ float: left;
+ width: 50%;
+}
+
+#content div.rightcol {
+ float: right;
+ width: 50%;
+}
+
+span.highlight {
+ font-weight: bold;
+}
+
+span.mapsquare {
+ background-color: #000000;
+}
+
+span.mapsquare2 {
+ opacity: 0.5;
+ background-color: #000000;
+}
+
+span.button {
+ border-style: solid;
+ border-width: 1px;
+ text-decoration: none;
+ padding: 5px;
+ border-color: #000000;
+}
+
+div.center {
+ text-align: center;
+}
+
+div.error {
+ color: #f00;
+}
+
+div.notification {
+ background-color: #FFFFFF;
+ color: #f00;
+ width: 80%;
+ border: 2px solid;
+ border-color: #f00;
+ padding: 5px;
+}
+
+img {
+ border: 0px;
+ vertical-align: top;
+}
+
+#footer {
+ clear: both;
+ height: 25%;
+ text-align: center;
+ font-size: small;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #000000;
+}
+
+#bge1 {
+ clear: both;
+}
+
+#bge2 {
+ clear: both;
+ height: 100%;
+ width: 100%;
+ background: transparent url(/img/style8bge2.png);
+ background-repeat: no-repeat;
+ background-position: 2% 50px;
+}
+
+#bge3 {
+ clear: both;
+ height: 100%;
+ width: 100%;
+ background: transparent url(/img/style8bge3.png);
+ background-repeat: no-repeat;
+ background-position: right bottom;
+}
